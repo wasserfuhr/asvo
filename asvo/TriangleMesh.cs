@@ -97,8 +97,8 @@ namespace asvo
             /// <summary>
             /// Converts this triangle mesh into a DynamicOctree.
             /// !Important: Although nodes can have as few as 1 and as many as 8
-            /// children, all leavs have the same depth. This is an important property that
-            /// allows the created octree to be rendred on a CUDA implementation of asvo.
+            /// children, all leaves have the same depth. This is an important property that
+            /// allows the created octree to be rendered on a CUDA implementation of asvo.
             /// </summary>
             /// <param name="maxLevel">The maximum node level/depth of any node in
             /// the created DynamicOctree.</param>
